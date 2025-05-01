@@ -95,59 +95,10 @@ Setup:-
 
 
 
+# **Directory :-
+
+![image](https://github.com/user-attachments/assets/cf7d8cf2-cdfb-447e-9194-6f0a1cc2ee64)
 
 
 
-# ** Directory :-
-core/
-│
-├── core/
-│   ├── _pycache_/
-│   ├── templates/
-│   │   └── registration/
-│   │        └── login.html  # Django default auth login template
-│   ├── _init_.py
-│   ├── asgi.py
-│   ├── settings.py
-│   ├── urls.py   # Project-level URLs
-│   └── wsgi.py
-│
-├── dashboard/
-│   ├── migrations/
-│   ├── templates/
-│   │   └── dashboard/
-│   │         ├── dashboard_home.html
-│   │         ├── post_internship.html
-│   │         ├── manage_internships.html
-│   │         ├── applications_received.html
-│   │         ├── documents.html
-│   │         └── profile_settings.html
-│   ├── _init_.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py  # App-level URLs
-│   └── views.py
-│
-├── users/
-│   ├── migrations/
-│   ├── templates/
-│   │   └── users/
-│   │         ├── users_home.html
-│   │         └── profile_settings.html
-│   ├── _init_.py
-│   ├── admin.py
-│   ├── apps.py
-│   ├── forms.py
-│   ├── models.py
-│   ├── tests.py
-│   ├── urls.py
-│   └── views.py
-│
-├── media/
-├── db.sqlite3
-├── manage.py
-└── env/
 
