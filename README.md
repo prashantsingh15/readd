@@ -93,3 +93,61 @@ Setup:-
 ![WhatsApp Image 2025-05-01 at 15 59 42_89157532](https://github.com/user-attachments/assets/7f730bb1-9a41-4226-88fc-41605bc6e98a)
 
 
+
+
+
+
+
+# ** Directory :-
+core/
+│
+├── core/
+│   ├── _pycache_/
+│   ├── templates/
+│   │   └── registration/
+│   │        └── login.html  # Django default auth login template
+│   ├── _init_.py
+│   ├── asgi.py
+│   ├── settings.py
+│   ├── urls.py   # Project-level URLs
+│   └── wsgi.py
+│
+├── dashboard/
+│   ├── migrations/
+│   ├── templates/
+│   │   └── dashboard/
+│   │         ├── dashboard_home.html
+│   │         ├── post_internship.html
+│   │         ├── manage_internships.html
+│   │         ├── applications_received.html
+│   │         ├── documents.html
+│   │         └── profile_settings.html
+│   ├── _init_.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py  # App-level URLs
+│   └── views.py
+│
+├── users/
+│   ├── migrations/
+│   ├── templates/
+│   │   └── users/
+│   │         ├── users_home.html
+│   │         └── profile_settings.html
+│   ├── _init_.py
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── models.py
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+│
+├── media/
+├── db.sqlite3
+├── manage.py
+└── env/
+
